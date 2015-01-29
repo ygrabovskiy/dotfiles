@@ -4,15 +4,16 @@ set expandtab
 filetype indent on
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'gmarik/Vundle.vim'
-Plugin 'https://github.com/907th/vim-auto-save'
-
-
-
-call vundle#end()            " required
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle#begin()
+" 
+" Plugin 'gmarik/Vundle.vim'
+" Plugin 'https://github.com/907th/vim-auto-save'
+" Plugin 'wincent/command-t'
+" 
+" 
+" 
+" call vundle#end()            " required
 filetype plugin indent on    " required
 let g:auto_save = 1
 execute pathogen#infect()
