@@ -12,7 +12,7 @@ antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme robbyrussell
+antigen theme cloud
 
 # Tell antigen that you're done.
 antigen apply
