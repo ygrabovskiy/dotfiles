@@ -44,3 +44,4 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_pylint_args = "--load-plugins pylint_django"
 let g:syntastic_quiet_messages = { "regex": 'missing-docstring'}
+let g:netrw_liststyle=3
