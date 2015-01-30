@@ -34,11 +34,6 @@ map <c-h> <c-w>h
 map <leader>g :GundoToggle<CR>
 let g:pyflakes_use_quickfix = 0
 
-au FileType python set omnifunc=pythoncomplete#Complete
-let g:SuperTabDefaultCompletionType = "context"
-set completeopt=menuone,longest,preview
-map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
-
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
